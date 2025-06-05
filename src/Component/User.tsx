@@ -7,7 +7,7 @@ import image5 from '../assets/download (2).jpeg'
 import image6 from '../assets/download.jpeg'
 import image7 from '../assets/photo-1438761681033-6461ffad8d80.jpeg'
 import image8 from '../assets/qc9kjus5fkt91.png'
-
+import image9 from '../assets/young-man-sad-expression_1194-2826.avif'
 export const User = () => {
     return (
         <>
@@ -92,6 +92,19 @@ export const User = () => {
             </Typography>
             </Stack>
 </Stack>
+
+<Stack direction={'row'} sx={{backgroundColor:"#FDDFD633"}}>
+            <Avatar src={image9} sx={{ mb: 2, width: 56, height: 56 }} />
+            <Stack direction={'column'}>
+            <Typography variant="h6" component="h4" sx={{ marginLeft: '12px' }}>
+              Johnthan
+            </Typography>
+            <Typography sx={{ marginLeft: '12px' }}>
+                Cograts Sir🥳
+            </Typography>
+            </Stack>
+</Stack>
+
 
 
 

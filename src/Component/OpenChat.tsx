@@ -1,17 +1,17 @@
 import { Avatar, Box, Divider, Stack, Typography } from "@mui/material"
-import image from '../assets/images.jpeg';
 import CallIcon from '@mui/icons-material/Call';
 import VideoCallIcon from '@mui/icons-material/VideoCall';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
 import MinimizeIcon from '@mui/icons-material/Minimize';
 import CropSquareIcon from '@mui/icons-material/CropSquare';
 import CloseIcon from '@mui/icons-material/Close';
+import image10 from "../assets/mainGirl.avif"
 export const OpenChat = () => {
     return (
         <>
             <Box sx={{ width: "100%"}}>
                 <Stack direction={"row"}>
-                    <Avatar src={image} sx={{ mb: 2, width: 56, height: 56 }} />
+                    <Avatar src={image10} sx={{ mb: 2, width: 56, height: 56 }} />
                     <Stack direction={'column'}>
                         <Typography variant="h4" sx={{ marginLeft: '15px' }}>
                             Edison

@@ -3,7 +3,7 @@ import Box from '@mui/material/Box';
 const SearchUser = () => {
     return (
         <>
-            <Box display="flex" alignItems="flex-start"  >
+            <Box display="flex" alignItems="flex-start"   >
 
                 <Box
                     sx={{
@@ -13,7 +13,7 @@ const SearchUser = () => {
                         justifyContent: "flex-start", // Align to top
                         height: '10vh',
                         width: '100%',
-                        backgroundColor: "#FDDFD680"
+                        backgroundColor: "#FDDFD680",
                     }}
                 >
                     <TextField
