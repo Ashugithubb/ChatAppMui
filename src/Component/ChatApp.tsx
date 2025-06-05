@@ -14,12 +14,7 @@ export const ChatApp = () => {
                     <Stack direction={'column'} sx={{ width: "40%" }}>
                         <SearchUser />
                         <Stack spacing={4}>
-                            <User />
-                            <User />
-                            <User />
-                            <User />
-                            <User />
-                            <User />
+                            <User />                
                         </Stack>
                     </Stack>
                     <OpenChat />
