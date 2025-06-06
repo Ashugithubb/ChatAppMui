@@ -1,5 +1,5 @@
 import { Avatar, Stack, Typography, Box } from "@mui/material"
-import image from '../assets/images.jpeg';
+
 import image2 from '../assets/EekeTIHWkAEOSNO.jpg';
 import image3 from '../assets/bea3491915571d34a026753f4a872000.jpg'
 import image4 from '../assets/download (1).jpeg'
@@ -39,11 +39,11 @@ export const User = () => {
                 width: "8px",
                 height: "8px",
                 borderRadius: "50%",
-                marginLeft: "78px", // space between text and dot
+                marginLeft: "78px", 
               }}
             />
           </Box>
-        </Stack>
+        </Stack>import image from '../assets/images.jpeg';
       </Stack>
 
       <Stack direction={'row'} sx={{ backgroundColor: "#FDDFD633" }}>
@@ -108,7 +108,7 @@ export const User = () => {
                 width: "8px",
                 height: "8px",
                 borderRadius: "50%",
-                marginLeft: "78px", // space between text and dot
+                marginLeft: "78px", 
               }}
             />
           </Box>

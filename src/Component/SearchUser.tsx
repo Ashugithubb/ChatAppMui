@@ -8,9 +8,9 @@ const SearchUser = () => {
                 <Box
                     sx={{
                         display: "flex",
-                        flexDirection: "column", // Stack children vertically
-                        alignItems: "center",    // Center horizontally
-                        justifyContent: "flex-start", // Align to top
+                        flexDirection: "column", 
+                        alignItems: "center",    
+                        justifyContent: "flex-start", 
                         height: '10vh',
                         width: '100%',
                         backgroundColor: "#FDDFD680",
@@ -32,9 +32,9 @@ const SearchUser = () => {
                     />
                     <Box sx={{
                         display: "flex",
-                        flexDirection: "column", // Stack children vertically
-                        alignItems: "center",    // Center horizontally
-                        justifyContent: "flex-start", // Align to top
+                        flexDirection: "column", 
+                        alignItems: "center",    
+                        justifyContent: "flex-start", 
                         height: '100vh',
                         width: '100%',
                         backgroundColor: "#FFFFFF"
