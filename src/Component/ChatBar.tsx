@@ -7,11 +7,11 @@ export const ChatBar = () => {
     return (
         <>
         <Stack direction={'row'} spacing={3}>
-            <AddIcon />
-            <MicIcon />
+            <AddIcon sx={{color:"#982176E5"}} />
+            <MicIcon sx={{color:"#982176E5"}} />
 
             <TextField
-                label="search"
+                label="Aa"
                 variant="outlined"
                 size="small"
                 sx={{
@@ -24,8 +24,8 @@ export const ChatBar = () => {
                     }
                 }}
             />
-            <EmojiEmotionsIcon/>
-            <SendIcon/>
+            <EmojiEmotionsIcon sx={{color:"#982176E5"}}/>
+            <SendIcon sx={{color:"#982176E5"}}/>
                 </Stack>
         </>
     )

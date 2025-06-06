@@ -14,12 +14,12 @@ export default function SideBar() {
     return (
         <Box sx={{ width: '20%', height: '120vh', backgroundColor: '#FDDFD6' }}>
             <Stack spacing={8} alignItems="center" sx={{margin:'10px'}}>
-                <Avatar src={avatarImg} sx={{ mb: 2, width: 56, height: 56 }} />
-                <HomeIcon sx={{ fontSize: 40 }} />
-                <MessageIcon sx={{ fontSize: 40 }} />
-                <SearchIcon sx={{ fontSize: 40 }} />
-                <EditSquareIcon sx={{ fontSize: 40 }} />
-                <SettingsApplicationsIcon sx={{ fontSize: 40 }} />
+                <Avatar src={avatarImg} sx={{ mb: 2, width: 56, height: 56}} />
+                <HomeIcon sx={{ fontSize: 40 , color:"#982176E5"}} />
+                <MessageIcon sx={{ fontSize: 40, color:"#982176E5" }} />
+                <SearchIcon sx={{ fontSize: 40 , color:"#982176E5"}} />
+                <EditSquareIcon sx={{ fontSize: 40 , color:"#982176E5"}} />
+                <SettingsApplicationsIcon sx={{ fontSize: 40 , color:"#982176E5"}} />
             </Stack>
         </Box>
     );

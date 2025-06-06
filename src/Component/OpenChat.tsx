@@ -9,9 +9,23 @@ import image10 from "../assets/mainGirl.avif"
 export const OpenChat = () => {
     return (
         <>
-            <Box sx={{ width: "100%"}}>
+            <Box sx={{ width: "100%" }}>
                 <Stack direction={"row"}>
-                    <Avatar src={image10} sx={{ mb: 2, width: 56, height: 56 }} />
+                    <Box sx={{ position: "relative", display: "inline-block" }}>
+                        <Avatar src={image10} sx={{ mb: 2, width: 56, height: 56 }} />
+                        <Box
+                            sx={{
+                                position: "absolute",
+                                bottom: 15,
+                                right: 5,
+                                background: "green",
+                                height: "10px",
+                                width: "10px",
+                                border: "2px solid #fff",
+                                borderRadius: "50%",
+                            }}
+                        />
+                    </Box>
                     <Stack direction={'column'}>
                         <Typography variant="h4" sx={{ marginLeft: '15px' }}>
                             Edison
@@ -27,14 +41,14 @@ export const OpenChat = () => {
                     </Box>
                 </Stack>
                 <Box sx={{ display: "flex", justifyContent: "flex-end", width: "100%", gap: "30px" }}>
-                    <CallIcon />
-                    <VideoCallIcon />
-                    <MoreVertIcon />
+                    <CallIcon sx={{ color: "#982176E5" }} />
+                    <VideoCallIcon sx={{ color: "#982176E5" }} />
+                    <MoreVertIcon sx={{ color: "#982176E5" }} />
                 </Box>
-                <Divider sx={{ mt: 2, borderColor: "light-black"}} />
+                <Divider sx={{ mt: 2, borderColor: "light-black" }} />
             </Box>
-          
-          
+
+
         </>
     )
 }
